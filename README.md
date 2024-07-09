@@ -254,17 +254,15 @@ yarn add @emotion/react @emotion/styled
 ## 4️⃣ 디렉토리 구조
 
 ```bash
-src
-├── components
-│   └── shared
-├── hooks
-├── layouts
-├── models
-├── pages
-├── services
-├── stores
-├── styles
-└── utils
+📂src
+├── 📂components
+│   └── 📃shared
+├── 📂hooks
+├── 📂layouts
+├── 📂models
+├── 📂pages
+├── 📂services
+├── 📂stores
+├── 📂styles
+└── 📂utils
 ```
-
-#### 💼components :
