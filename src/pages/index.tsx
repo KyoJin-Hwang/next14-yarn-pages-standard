@@ -16,10 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <p>
-            Get started by editing[test]&nbsp;
-            <code className={styles.code}>src/pages/index.tsx</code>
-          </p>
+          <p>Owen Test</p>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
