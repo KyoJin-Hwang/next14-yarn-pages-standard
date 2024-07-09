@@ -141,7 +141,112 @@ git status
 git commit -m 'feat : [내용]'
 - 커밋 메시지의 첫번째 줄은 Title 두번째 줄은 description 마지막에 ' 붙여준다
 
-Error 충돌
+- Error : 충돌
 git push origin main 을 할경우 이전 커밋주소로인해 충돌이난다.
 - 결론 : git push origin +main 으로 강제 푸시해줘야한다.
+```
+
+## 2️⃣ Prettier 적용
+
+### 1. prettier devDependencies 설치
+
+```bash
+yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
+```
+
+### 2. eslintrc.json에 prettier 요소를 적어준다.
+
+```json
+{
+  "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
+```
+
+### 4. prettier 파일 추가
+
+- .prettierrc 파일생성
+
+### 5. prettier 규칙 생성
+
+```json
+{
+  "useTabs": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "semi": false,
+  "arrowParens": "always"
+}
+```
+
+### 6. eslint 와 prettier 경로 맞춰주기
+
+```bash
+yarn dlx @yarnpkg/sdks vscode
+```
+
+## 3️⃣ emotion 적용
+
+### 1. emotion 설치
+
+- Next14는 여기 설치까지만
+
+```bash
+yarn add @emotion/react @emotion/styled
+```
+
+### 2. .babelrc 파일 생성 후 emotion 적용
+
+- Next14 미만에만 해당
+
+```json
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-react": {
+          "runtime": "automatic",
+          "importSource": "@emotion/react"
+        }
+      }
+    ]
+  ]
+}
+```
+
+### 3. tsconfig 에서 emotion 적용
+
+- Next 버전 상관없이 모두 다
+
+```json
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    // 이 부분 추가해줬음
+    "jsxImportSource": "@emotion/react"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
 ```
