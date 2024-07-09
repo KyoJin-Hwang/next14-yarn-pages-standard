@@ -20,3 +20,5 @@
 - 0️⃣ Zero-install
 - 💢 ESLint & Prettier
 - 🎨 Emotion
+
+## 1️⃣ 초기설치 ( Setup )
