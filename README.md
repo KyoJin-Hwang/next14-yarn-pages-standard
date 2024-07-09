@@ -1,7 +1,7 @@
 # next-yarn-standard
 
 #### ✅ 첫 Clone 시에는 yarn or yarn install 실행
-#### ❌ yarn start Error 시 
+#### ❌ yarn dev Error 시 
 - 버전을 맞춘다.
 - yarn install을 한다
 
