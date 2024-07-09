@@ -256,7 +256,7 @@ yarn add @emotion/react @emotion/styled
 ```bash
 src
 ├── components
-│   ├── shared
+│   └── shared
 ├── hooks
 ├── layouts
 ├── models
@@ -265,5 +265,6 @@ src
 ├── stores
 ├── styles
 └── utils
-
 ```
+
+### 💼components :
