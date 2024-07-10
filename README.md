@@ -72,9 +72,6 @@ yarn set version berry
 
 # 특정 버전 다운
 yarn set version [version]
-
-이후
-
 yarn or yarn install
 ```
 
