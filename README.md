@@ -244,6 +244,10 @@ yarn add @emotion/react @emotion/styled
       "@/*": ["./src/*"]
     },
     // 이 부분 추가해줬음
+    // 대신 이부분을 추가할 시에 메타태그 수정 불가 및
+    // 클라이언트 컴포넌트 만 사용가능
+    // 만약 사용하지않으면 해달 페이지 맨 상단에
+    // /** @jsxImportSource @emotion/react */   <-  추가 해준다
     "jsxImportSource": "@emotion/react"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
