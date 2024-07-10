@@ -19,6 +19,7 @@
       "@shared/*": ["src/components/shared/*"],
       "@hooks/*": ["src/hooks/*"],
       "@layouts/*": ["src/layouts/*"],
+      "@lib/*": ["src/lib/*"],
       "@models/*": ["src/models/*"],
       "@pages/*": ["src/pages/*"],
       "@services/*": ["src/services/*"],

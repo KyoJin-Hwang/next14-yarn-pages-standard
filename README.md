@@ -256,12 +256,12 @@ yarn add @emotion/react @emotion/styled
 ```bash
 📂src
 ├── 📂components // 페이지에서 사용되는 컴포넌트 폴더
-│   └── 📃shared // Button, H1, H2, Space 등 전체적으로 사용하는 컴포넌트 폴더 
+│   └── 📃shared // Button, H1, H2, Space 등 전체적으로 사용하는 컴포넌트 폴더
 ├── 📂hooks // 커스텀 훅 폴더
 ├── 📂layouts // 페이지의 레이아웃 폴더
-├── 📂remote // Google Analytics 등 외부와 연결하는 폴더 
+├── 📂lib // 외부 라이브러리 및 외부 연결 폴더
 ├── 📂models // 타입 폴더
-├── 📂pages // 페이지 폴더 
+├── 📂pages // 페이지 폴더
 ├── 📂services // API 폴더
 ├── 📂stores // 클라이언트 상태관리 폴더
 ├── 📂styles // 스타일 담당 폴더
