@@ -1,4 +1,4 @@
-# next-yarn-standard
+# next-yarn(pages)-standard
 
 #### ✅ 첫 Clone 시에는 yarn or yarn install 실행
 

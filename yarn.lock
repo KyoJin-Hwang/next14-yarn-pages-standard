@@ -2707,9 +2707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-yarn-standard@workspace:.":
+"next-yarn-pages-standard@workspace:.":
   version: 0.0.0-use.local
-  resolution: "next-yarn-standard@workspace:."
+  resolution: "next-yarn-pages-standard@workspace:."
   dependencies:
     "@emotion/react": "npm:^11.11.4"
     "@emotion/styled": "npm:^11.11.5"
