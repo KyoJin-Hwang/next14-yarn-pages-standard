@@ -1,1 +1,1 @@
-// global
+// lib global
