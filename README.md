@@ -75,7 +75,6 @@ yarn or yarn install
 ### 4. pnp 설정
 
 1. .yarnrc.yml 폴더에서 nodeLinker 수정
-   ![alt text](image.png)
 2. $ yarn install
 3. Yarn berry 와 IDE 통합 - **ZipFs Plugin 익스텐션설치**
 
